@@ -1,0 +1,163 @@
+/* ------media queries---- */
+@media screen and (max-width: 1024px) {
+  .header-wrap .hamburger {
+    display: inline;
+  }
+  .header-wrap .hamburger-inner,
+  .header-wrap .hamburger-inner:after,
+  .header-wrap .hamburger-inner:before {
+    width: 30px;
+    background-color: var(--clr-primary);
+    margin-top: 0px;
+  }
+  .header-wrap .hamburger.is-active .hamburger-inner,
+  .header-wrap .hamburger.is-active .hamburger-inner:after,
+  .header-wrap .hamburger.is-active .hamburger-inner:before {
+    background-color: var(--clr-primary);
+  }
+  .header-inner {
+    display: none;
+  }
+  .show-nav {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: -10px;
+  }
+  .header-inner .link-container ul {
+    display: inline-block;
+    width: 100%;
+  }
+  .header-inner li {
+    padding: 8px 0;
+  }
+  .header-inner li:hover {
+    background-color: var(--grey-light);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .card-items {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .footer .link-container,
+  .footer-content p {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  h1 {
+    font-size: 36px;
+    margin-bottom: 12px;
+  }
+  .upper-banner .para-wrapper {
+    padding: 18px;
+  }
+  .upper-banner p {
+    font-size: 20px;
+    line-height: 36px;
+  }
+  h2 {
+    font-size: 36px;
+    margin-bottom: 12px;
+  }
+  h3 {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+  .btn {
+    font-size: 16px;
+  }
+  .white-btn {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 567px) {
+  .card-items,
+  .footer .link-container,
+  .footer-content p {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  .upper-banner .para-wrapper {
+    padding: 17px;
+  }
+  .upper-banner p {
+    font-size: 18px;
+    line-height: 32px;
+  }
+  h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  .btn {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+  .white-btn {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .header-wrap .logo {
+    width: 80%;
+  }
+  .header-wrap .hamburger{
+     padding: 10px;
+  }
+  .header-wrap .hamburger-box{
+     width: 25px;
+  }
+  .header-wrap .hamburger-inner,
+  .header-wrap .hamburger-inner:after,
+  .header-wrap .hamburger-inner:before {
+    width: 25px;
+  }
+  h1 {
+    font-size: 30px;
+    margin-bottom: 8px;
+  }
+  .upper-banner .para-wrapper {
+    padding: 15px;
+  }
+  .upper-banner p {
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .about-section p {
+    margin-bottom: 12px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  h2 {
+    font-size: 25px;
+    margin-bottom: 8px;
+  }
+  h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  .btn {
+    padding: 8px 16px;
+    font-size: 12px;
+  }
+  .white-btn {
+    font-size: 16px;
+  }
+  .card-block p {
+    font-size: 16px;
+  }
+  .link-container ul {
+    display: inline-block;
+    margin: 12px 0;
+  }
+}
