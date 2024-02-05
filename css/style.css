@@ -73,13 +73,13 @@ section {
   align-items: center;
   padding: 10px 0;
 }
-.header-wrap .logo {
+.header-wrap .logo-wrap {
      display: flex;
      flex-wrap: wrap;
      align-items: center;
 }
-.header-wrap .hamburger {
-  display: none;
+.logo-wrap .logo{
+     max-width: 250px;
 }
 .header-inner {
   text-align: right;
