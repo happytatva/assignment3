@@ -2,9 +2,7 @@ $(document).ready(function () {
   $(".hamburger").click(function () {
     $(".body").toggleClass("open-menu");
   });
-});
-// -------sliding logogs using slick----------
-$(document).ready(function () {
+  // -------sliding logogs using slick----------
   $(".logo-slider").slick({
     infinite: false,
     slidesToShow: 5,
@@ -51,7 +49,5 @@ $(window).on("resize", function () {
       var headerWrapHeight = $(".header-wrap").outerHeight();
       $(".body .header-inner").css("top", headerWrapHeight);
     }, 500);
-
-    console.log("resize");
   }
 });
